@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -42,9 +42,8 @@ const Works = () => {
             style={{ background: "#ABF1FF94" }}
           ></div>
         </div>
-
-        {/* right side */}
       </div>
+      {/* right side */}
       <div className="w-right">
         <motion.div
           initial={{ rotate: 45 }}

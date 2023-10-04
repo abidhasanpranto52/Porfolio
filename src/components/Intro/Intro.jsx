@@ -28,10 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Abid Hasan Pranto</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          I'm Abid Hasan Pranto, a dedicated MERN (MongoDB, Express.js, React, Node.js) stack developer with a rich background  in web technologies like HTML, CSS, jQuery, Bootstrap, Tailwind CSS, and more, backed by 2 years of experience.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

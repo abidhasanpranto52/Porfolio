@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -25,15 +25,16 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span>Services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
+        My commitment extends to staying at the forefront of the ever-evolving web development landscape, regularly updating my skills and incorporating the latest trends and best practices. This ensures that I consistently deliver high-quality, user-focused solutions that align seamlessly with your business objectives and exceed end-user expectations.
         </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a>
+
+        <div>
+          <a href={Resume} download>
+            <button className="button s-button">Download CV</button>
+          </a>{" "}          
+        </div>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
